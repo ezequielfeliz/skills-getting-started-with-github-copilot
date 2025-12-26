@@ -79,8 +79,8 @@ section h3 {
 }
 
 .participants-list {
-  list-style: disc;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 0;
   margin-top: 8px;
 }
 
@@ -92,6 +92,20 @@ section h3 {
   border: 1px solid #eef1f4;
   font-size: 14px;
   color: #333;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 2px 6px;
+}
+
+.remove-participant:hover {
+  color: #b71c1c;
 }
 
 .no-participants {
